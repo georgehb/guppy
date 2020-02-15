@@ -169,7 +169,7 @@
 
     "int":
     {"output":{
-        "latex":"\\displaystyle\\int{{$1}}d{$2}",
+        "latex":"\\displaystyle\\int{{$1}}\\,\\mathrm{d}{$2}",
         "small_latex":"\\int{{$1}}d{$2}",
 	"asciimath":"int {$1} d{$2}"},
      "attrs":{
@@ -183,7 +183,7 @@
 
     "defi":
     {"output":{
-        "latex":"\\displaystyle\\int_{{$1}}^{{$2}}{$3}d{$4}",
+        "latex":"\\displaystyle\\int_{{$1}}^{{$2}}{$3}\\,\\mathrm{d}{$4}",
         "small_latex":"\\int_{{$1}}^{{$2}}{$3}d{$4}",
 	"asciimath":"int_{{$1}}^{{$2}} {$3} d{$4}"},
      "attrs":{
@@ -199,7 +199,7 @@
 
     "deriv":
     {"output":{
-        "latex":"\\displaystyle\\frac{d{$1}}{d{$2}}",
+        "latex":"\\displaystyle\\frac{\\mathrm{d}{$1}}{\\mathrm{d}{$2}}",
         "small_latex":"\\frac{d{$1}}{d{$2}}",
 	"asciimath":"diff({$1},{$2})"},
      "attrs":{
