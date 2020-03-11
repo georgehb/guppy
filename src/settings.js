@@ -11,7 +11,8 @@ Settings.config.settings = {
     "blank_caret":"",
     "blank_placeholder":"[?]",
     "blacklist":[],
-    "buttons":["osk","settings","symbols","controls"],
+    // "buttons":["osk","settings","symbols","controls"],
+    "buttons":[],
     "cliptype":"latex",
 };
 
