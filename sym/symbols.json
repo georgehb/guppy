@@ -82,6 +82,76 @@
 	 {"delete":"1"}]
     },
 
+    "dot":
+    {"output":{
+        "latex":"\\dot{$1}",
+        "asciimath":"dot {$1}"},
+     "attrs":{
+	 "type":"dot",
+	 "group":"functions"},
+     "args":[
+	 {"delete":"1"}]
+    },
+
+    "dagger":
+    {"output":{
+        "latex":"{$1}\\dagger",
+        "asciimath":"{$1} dagger"},
+     "attrs":{
+	 "type":"dagger",
+	 "group":"functions"},
+     "args":[
+	 {"delete":"1"}]
+    },
+
+
+    "underline":
+    {"output":{
+        "latex":"\\underline{$1}",
+        "asciimath":"underline {$1}"},
+     "attrs":{
+	 "type":"underline",
+	 "group":"functions"},
+     "args":[
+	 {"delete":"1"}]
+    },
+
+    "hat":
+    {"output":{
+        "latex":"\\hat{$1}",
+        "asciimath":"hat {$1}"},
+     "attrs":{
+	 "type":"hat",
+	 "group":"functions"},
+     "args":[
+	 {"delete":"1"}]
+    },
+
+    "tvec":
+    {"output":{
+        "latex":"\\vec{$1}",
+        "asciimath":"vec {$1}"},
+     "attrs":{
+	 "type":"vec",
+	 "group":"functions"},
+     "args":[
+	 {"delete":"1"}]
+    },
+
+    "ceil":
+    {"output":{
+        "latex":"\\lceil{$1}\\rceil",
+	"asciimath":"⌈{$1}⌉"},
+     "attrs":{
+	 "type":"bracket",
+	 "group":"functions"},
+     "ast":{
+	 "type":"pass"
+     },
+     "args":[
+	 {"delete":"1","is_bracket":"yes"}]
+    },
+
     "paren":
     {"output":{
         "latex":"\\left({$1}\\right)",
