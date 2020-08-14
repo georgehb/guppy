@@ -84,8 +84,8 @@
 
     "dot":
     {"output":{
-        "latex":"\\dot{$1}",
-        "asciimath":"dot {$1}"},
+        "latex":"\\dot{{$1}}",
+        "asciimath":"dot {{$1}}"},
      "attrs":{
 	 "type":"dot",
 	 "group":"functions"},
@@ -107,8 +107,8 @@
 
     "underline":
     {"output":{
-        "latex":"\\underline{$1}",
-        "asciimath":"underline {$1}"},
+        "latex":"\\underline{{$1}}",
+        "asciimath":"underline {{$1}}"},
      "attrs":{
 	 "type":"underline",
 	 "group":"functions"},
@@ -116,10 +116,35 @@
 	 {"delete":"1"}]
     },
 
+
+    "bold":
+    {"output":{
+        "latex":"\\mathbf{{$1}}",
+        "asciimath":"mathbf {{$1}}"},
+     "attrs":{
+	 "type":"mathbf",
+	 "group":"functions"},
+     "args":[
+	 {"delete":"1"}]
+    },
+
+
+    "mathcal":
+    {"output":{
+        "latex":"\\mathcal{{$1}}",
+        "asciimath":"mathcal {{$1}}"},
+     "attrs":{
+	 "type":"mathcal",
+	 "group":"functions"},
+     "args":[
+	 {"delete":"1"}]
+    },
+
+
     "hat":
     {"output":{
-        "latex":"\\hat{$1}",
-        "asciimath":"hat {$1}"},
+        "latex":"\\hat{{$1}}",
+        "asciimath":"hat {{$1}}"},
      "attrs":{
 	 "type":"hat",
 	 "group":"functions"},
