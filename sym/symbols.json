@@ -95,8 +95,8 @@
 
     "dagger":
     {"output":{
-        "latex":"{$1}\\dagger",
-        "asciimath":"{$1} dagger"},
+        "latex":"{$1}^{\\dagger}",
+        "asciimath":"{$1}^ {dagger}"},
      "attrs":{
 	 "type":"dagger",
 	 "group":"functions"},
@@ -129,7 +129,7 @@
     },
 
 
-    "mathcal":
+    "cal":
     {"output":{
         "latex":"\\mathcal{{$1}}",
         "asciimath":"mathcal {{$1}}"},
@@ -152,6 +152,17 @@
 	 {"delete":"1"}]
     },
 
+    "widehat":
+    {"output":{
+        "latex":"\\widehat{{$1}}",
+        "asciimath":"widehat {{$1}}"},
+     "attrs":{
+	 "type":"widehat",
+	 "group":"functions"},
+     "args":[
+	 {"delete":"1"}]
+    },
+
     "tvec":
     {"output":{
         "latex":"\\vec{$1}",
@@ -165,7 +176,7 @@
 
     "ceil":
     {"output":{
-        "latex":"\\lceil{$1}\\rceil",
+        "latex":"\\left\\lceil{$1}\\right\\rceil",
 	"asciimath":"⌈{$1}⌉"},
      "attrs":{
 	 "type":"bracket",
